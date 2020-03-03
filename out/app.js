@@ -6,9 +6,10 @@ var App = /** @class */ (function () {
     }
     /** Entry point of our app */
     App.start = function () {
-        console.log(hello_1.hello('world'));
+        console.log(hello_1.hello('world ' + x));
     };
     return App;
 }());
+var x = 12;
 App.start();
 //# sourceMappingURL=app.js.map
