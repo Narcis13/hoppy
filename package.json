@@ -4,7 +4,9 @@
   "description": "Tiny toy programming language",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/typescript/bin/tsc index.ts"
+    "start": "node out/app.js",
+    "prestart": "npm run build",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
