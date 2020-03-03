@@ -1,0 +1,23 @@
+{
+  "name": "hoppy",
+  "version": "1.0.0",
+  "description": "Tiny toy programming language",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/typescript/bin/tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narcis13/hoppy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Narcis13/hoppy/issues"
+  },
+  "homepage": "https://github.com/Narcis13/hoppy#readme",
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
